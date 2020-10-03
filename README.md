@@ -3,7 +3,7 @@ Version : 1
 
 Макет IntroScreen V2
 Информационый блок программы.
-#  Реализация - проблемы
+#  Реализация
 * Реализован метод - ViewPager2 который требует RecyclerView в своей версии, подерживаеться все от ANDRIOID 6.0 
 *  Метод слайдера, максимальная поддержка  API 29.
 
@@ -11,14 +11,15 @@ Version : 1
 * Переключатель слайдеров, кнопка Next (далее)
 * Возможность локализации : Title (заголовки), Descriptions (описание), Buttons (кнопки).
 * Сохранение решения пользователя в системной памяти приложения. Повторный заход пользователя не будет предлагать ознакомиться повторно с информацией Intro (вступлением)
+* Кнопка "Далее, Начать" в стилях "material design"
+* Кнопка слежения за слайдами в различном стиле  
 
 
 ## Изображение макета
 Макет № 1 - Вступ 
-![intro_maket_1](https://user-images.githubusercontent.com/20967261/94929793-3b52fa80-04ce-11eb-993b-1941c78ce843.png)
+![maket_1](https://user-images.githubusercontent.com/20967261/95000487-edbbb800-05c9-11eb-8592-bf71da11c7b5.png)
 Макет  № 2 - Доп. Информация
-![intro_maket_2](https://user-images.githubusercontent.com/20967261/94930001-77865b00-04ce-11eb-9fc5-ea731f869f55.png)
+![maket_2](https://user-images.githubusercontent.com/20967261/95000489-ef857b80-05c9-11eb-83fc-11c0ecfd46ad.png)
 Макет № 3 - Финал.  - переход к программе
-![intro_maket_3](https://user-images.githubusercontent.com/20967261/94930007-78b78800-04ce-11eb-9b55-9a1202c18516.png)
-Макет № 4 - Программа
-![intro_maket_4](https://user-images.githubusercontent.com/20967261/94930010-79501e80-04ce-11eb-83ea-eb0211624317.png)
+![maket_3](https://user-images.githubusercontent.com/20967261/95000491-f0b6a880-05c9-11eb-839d-5eb209031a5b.png)
+
