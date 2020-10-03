@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorBtnText">#fff</color>
+    <color name="gradient_btn_start">#000000</color>
+    <color name="gradient_btn_end">#830000</color>
+
+    <color name="colorIntroTitle">#1B1B1B</color>
+    <color name="colorIntroDescription">#595959</color>
+
+    <color name="colorBackground">#fff</color>
+    <color name="colorBackgroundGray">#434141</color>
+    <color name="colorBtnBackground">#fff</color>
+    <color name="colorIndicator">#000000</color>
+    <color name="colorOnboardingIndicatorInactivity">#AE0505</color>
+
+    <color name="t">#007879E8</color>
+</resources>

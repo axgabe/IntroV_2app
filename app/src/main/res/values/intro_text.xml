@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="IntroBtnNext">Далее</string>
+    <string name="IntroBtnGetStarted">Начать</string>
+
+    <string name="IntroTitleOne">Заголовок 1</string>
+    <string name="IntroDescriptionOne">Описание 1</string>
+    <string name="IntroTitleTwo">Заголовок 2</string>
+    <string name="IntroDescriptionTwo">Описание 2</string>
+    <string name="IntroTitleThree">Заголовок 3</string>
+    <string name="IntroDescriptionThree">Описание3</string>
+
+</resources>

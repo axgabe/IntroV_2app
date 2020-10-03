@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".Intro.IntroActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/IntroBtnOnboardingAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/IntroBtnNext"
+        android:textColor="@color/colorBtnText"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:drawableTint="@color/colorBtnText"
+        app:backgroundTint="@null"
+        android:background="@drawable/intro_gradient_btn_style"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/IntroOnboardingViewPager2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <LinearLayout
+        android:id="@+id/IntroLayoutOnboardingIndicators"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/IntroOnboardingViewPager2"
+        app:layout_constraintEnd_toStartOf="@+id/IntroBtnOnboardingAction"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/IntroBtnOnboardingAction" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
